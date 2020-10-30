@@ -3,4 +3,5 @@ My boss, Jeremy was approached by upper management about a special project. Auto
 ## Linear Regression to Predict MPG
 The first study we conducted was a linear regression that predicts the mpg of MechaCar prototypes using several variables from our dataset. 
 ![Dev_1](https://user-images.githubusercontent.com/68392225/97732000-dd510d00-1aa3-11eb-8341-e9b6e70a93ff.png)
+
 The variables that provided a non-random amount of variance to the mpg values in the dataset were Vehicle Length, Ground Clearance, and the intercept. 
