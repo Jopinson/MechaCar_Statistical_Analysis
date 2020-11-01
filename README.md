@@ -4,7 +4,7 @@ My boss, Jeremy was approached by upper management about a special project. Auto
 The first study we conducted was a linear regression that predicts the mpg of MechaCar prototypes using several variables from our dataset. 
 ![Dev_1](https://user-images.githubusercontent.com/68392225/97732000-dd510d00-1aa3-11eb-8341-e9b6e70a93ff.png)
 
-Our null Hypothesis (H0) is the slope of the linear model is 0, indicating that there is no significant linear relationship. While our alternative hypothesis (Ha) is the slope of the linear model is not 0, indicating a linear relationship between at least some of the variables.The variables that provided a non-random amount of variance to the mpg values in the dataset were Vehicle Length, Ground Clearance, and the intercept. Because those are significant, we can reject our null hypothesis. Our R2 value is 0.71, which indicates a strong correlation, but includes factors that are not statistacally significant. 
+Our null Hypothesis (H0) is the slope of the linear model is 0, indicating that there is no significant linear relationship. While our alternative hypothesis (Ha) is the slope of the linear model is not 0, indicating a linear relationship between at least some of the variables. The variables that provided a non-random amount of variance to the mpg values in the dataset were Vehicle Length, Ground Clearance, and the intercept. Because those are significant, we can reject our null hypothesis. Our R2 value is 0.71, which indicates a strong correlation, but includes factors that are not statistacally significant. 
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
@@ -37,5 +37,5 @@ Our p-value was 0.34, higher than our alpha so we reject the null hypothesis on 
 Our p-value was 0.6, higher than our alpha so we reject the null hypothesis on Lot 3.
 
 ## Study Design: MechaCar vs Competition
-
+In conclusion, we were asked to create a statistical study that can quantify how the MechaCar performs against the competition! To do this we needed to think of what things the consumer most wants out of car. Things like MPG, city or highway fuel efficiency, safety ratings, make and model, maintenance cost, or horse power. To me, the things that would be most important to the consumer our MPG and durablity(maintenance, how long it'll last). Our null hypothesis would be is the slope of the linear model is 0, indicating that there is no significant linear relationship to MPG and durability. Our alternative hypthesis is the slope of the linear model is not 0, indicating a linear relationship between at least some of the variables. We would preform multiple linear regressions, as there are a lot of factors that consumers look at when purchasing a new vehicle. We would need to break MPG into highway and city MPG, durablity, maintenance costs, vehicle size, safety ratings, and data on types of cars bought for the last few years. 
 
